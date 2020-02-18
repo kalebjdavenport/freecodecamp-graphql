@@ -1,0 +1,79 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  font-size: 2rem;
+  padding: 1.8rem;
+  font-weight: 600;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  font-size: 2rem;
+  padding: 1.8rem;
+  font-weight: 500;
+}
+
+.Book-link {
+  color: #61dafb;
+  display: inline-block;
+  margin: 1rem;
+  padding: 10px;
+  border-radius: 0.3rem;
+  border: 1px solid #61dafb;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.App-body {
+  background-color: #566073;
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 15vw;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.Book-details {
+  padding: 1rem;
+}
+
+.Book-details h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.Book-details .info {
+  margin: 1.5rem 0;
+}
+
+.Book-details p {
+  color: #eee;
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Book-details p span {
+  border-bottom: 4px solid #61dafb;
+}
+
+.Book-details .books-by-author {
+  list-style: circle;
+  padding-left: 2rem;
+  font-size: 1.15rem;
+}
+
+.books-by-author li {
+  padding: 0.5rem;
+}
